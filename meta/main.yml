@@ -1,0 +1,21 @@
+---
+dependencies:
+  - { role: virtualenv.java }
+
+galaxy_info:
+  author: virtualenv
+  description: Elasticsearch for Linux.
+  company: ""
+  license: "license (BSD, MIT)"
+  min_ansible_version: 1.4
+  platforms:
+  - name: Debian
+    versions:
+    - all
+  - name: Ubuntu
+    versions:
+    - all
+  categories:
+    - web
+    - system
+    - monitoring
